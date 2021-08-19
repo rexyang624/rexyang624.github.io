@@ -30,7 +30,7 @@ twitter_username: rexyang624
 github_username:  rexyang624
 
 # Build settings
-theme: minima
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 
