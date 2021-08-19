@@ -1,4 +1,5 @@
 ---
+usemathjax: true
 layout: page
 title:  "Spin-wave analysis"
 permalink: /spin-wave/
