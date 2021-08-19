@@ -16,3 +16,4 @@ $$
 \end{align*}
 $$
 
+$$\frac{dL}{dx}$$
