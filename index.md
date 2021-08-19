@@ -5,4 +5,4 @@
 layout: default
 ---
 
-[Spin wave analysis](2021-08-19-Spin-wave-analysis)
+[Spin wave analysis](spin-wave)

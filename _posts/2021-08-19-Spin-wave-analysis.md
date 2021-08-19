@@ -1,9 +1,18 @@
 ---
-layout: default
+usemathjax: true
+layout: page
 title:  "Spin-wave analysis"
-date:   2021-08-19 11:30:00 -0500
-categories: spin
+permalink: /spin-wave/
+description: 08/19/2021
 ---
 
 ## Holstein-Primakoff transformation
+
+$$
+\begin{align*}
+    &S^+=\hbar\sqrt{2S}\sqrt{1-\frac{a^\dagger a}{2S}}a\\
+    &S^-=\hbar\sqrt{2S}a^\dagger\sqrt{1-\frac{a^\dagger a}{2S}}\\
+    &S^z\,=\hbar(S-a^\dagger a)
+\end{align*}
+$$
 
