@@ -4,5 +4,3 @@
 
 layout: home
 ---
-
-[Spin wave analysis](spin-wave)

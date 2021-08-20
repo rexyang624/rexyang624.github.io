@@ -10,11 +10,11 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <style>
-        .navgation {
-          background-color: #777;
-          color: black;
-          margin: 20px;
-          padding: 20px;
+        nav {
+            float: left;
+            width: 20%;
+            background: #ccc;
+            padding: 20px;
         }
     </style>
 
@@ -23,9 +23,6 @@
   </head>
 
   <body>
-    <div class="navgation">
-        Home
-    </div>
     <div id="container">
       <div class="inner">
 
@@ -45,6 +42,13 @@
           <a href="{{ site.github.owner_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
 	  {% endif %}
 	{% endif %}
+        </section>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                </ul>
+            </nav>
         </section>
         <hr>
         <section id="main_content">
