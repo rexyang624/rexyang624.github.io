@@ -8,6 +8,8 @@ description: 08/19/2021
 
 ## Holstein-Primakoff transformation
 
+For spin operators, we have 
+
 $$
 \begin{align*}
     &S^+=\hbar\sqrt{2S}\sqrt{1-\frac{a^\dagger a}{2S}}a\\
@@ -15,5 +17,3 @@ $$
     &S^z\,=\hbar(S-a^\dagger a)
 \end{align*}
 $$
-
-$$\frac{dL}{dx}$$
