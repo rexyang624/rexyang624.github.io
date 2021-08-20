@@ -16,6 +16,11 @@
 
   <body>
     <div id="container">
+      <div class="sidenav">
+        <ul>
+          <li><a href="\">Home</a></li>
+        </ul>
+      </div>
       <div class="inner">
 
         <header>
@@ -23,15 +28,8 @@
           <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
         </header>
         <hr>
-        <nav>
-          <ul class = nav>
-              <li><a href="/" class="nav">Home</a></li>
-          </ul>
-        </nav>
         <section id="main_content">
-          <article>
-            {{ content }}
-          </article>
+          {{ content }}
         </section>
 
         <footer>

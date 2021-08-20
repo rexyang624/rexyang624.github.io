@@ -1,24 +1,26 @@
 <style>
-    nav {
-        float: top;
-        width: 100%;
+    .sidenav {
+        width: 200px;
+        height: 100%;
         background: #ccc;
-        padding: 0px;
+        position: fixed;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
     }
-    a.nav {color:blue;}
-    a.nav:link  {color: blue;}
-    a.nav:visited {color: blue;}
-    a.nav:hover {text-decoration: underline; color: blue;}
-    a.nav:active {color: blue;}
-    article {
-        padding: 20px;
-        width: 80%;
-        height: auto; /* only for demonstration, should be removed */
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: sans-serif;
+        color: #818181;
+        display: block;
     }
-    @media (max-width: 600px) {
-        nav, article {
-            width: 100%;
-            height: auto;
-        }
+    .sidenav a:link  {color: #303030;}
+    .sidenav a:visited {color: #303030;}
+    .sidenav a:hover {color: #f1f1f1;}
+    .sidenav a:active {color: #303030; background-color: #708090;}
+    @media screen and (max-width: 768px) {
+        .sidenav {display: none;}
     }
 </style>
