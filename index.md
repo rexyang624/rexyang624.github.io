@@ -5,4 +5,4 @@
 layout: home
 ---
 
-Welcome to Yang's personal
+The site is still under construction...
