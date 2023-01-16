@@ -2,7 +2,7 @@
 usemathjax: true
 layout: page
 title:  "Spin-wave analysis"
-permalink: /spin-wave/
+permalink: /notes/spin-wave/
 description: 08/19/2021
 ---
 
