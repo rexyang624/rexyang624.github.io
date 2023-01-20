@@ -8,7 +8,7 @@ description: 08/19/2021
 
 ## Holstein-Primakoff transformation
 
-For spin operators, we have 
+For spin operators, we have
 
 $$
 \begin{align*}
