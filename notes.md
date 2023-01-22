@@ -1,7 +1,7 @@
 ---
 usemathjax: true
 layout: page
-title:  "Notes"
+title:  Notes s
 permalink: /notes/
 description: Relevant notes from various topics
 ---

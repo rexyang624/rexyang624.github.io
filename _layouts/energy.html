@@ -24,21 +24,6 @@
           <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
         </header>
         <hr>
-        <div>
-            <form action="postenquiry.php" method="post" name="myform" onkeyup="calculate()">
-                <input type="text" name="eV" />
-                <label>eV</label>
-                <br/>
-                <input type="text" name="nm" />
-                <label>nm</label>
-                <br/>
-                <input type="text" name="cm-1" />
-                <label>cm<sup>-1</sup></label>
-                <br/>
-                <input type="text" name="THz" />
-                <label>THz</label>
-            </form>
-        </div>
         <section id="main_content">
           {{ content }}
         </section>

@@ -1,13 +1,13 @@
 ---
 usemathjax: true
 layout: page
-title:  "Perturbation theory"
+title:  Perturbation theory
 permalink: /notes/perturbation/
 description: 01/19/2023
 ---
 <div id="date" style="text-align: right"> last updated on {{ "now" | date: "%m/%d/%Y" }} </div>
 
-Suppose the full Hamiltonian is given as $ \mathcal{H}=\mathcal{H}_0+\mathcal{H}_1 $, where the eigenstate of the full Hamiltonian is $ \|\Psi\rangle $ with the eigenvalue $$E$$, and the eigenstate of $$\mathcal{H}_0$$ is $\|\Phi\rangle$ with the eigenvalue $W$. Then we have
+Suppose the full Hamiltonian is given as $ \mathcal{H}=\mathcal{H}_0+\mathcal{H}_1 $, where the eigenstate of the full Hamiltonian is $ \|\Psi\rangle $ with the eigenvalue $$E$$, and the eigenstate of the unperturbed Hamiltonian $$\mathcal{H}_0$$ is $\|\Phi\rangle$ with the eigenvalue $W$. Then we have
 $$
 \begin{align}
     (\mathcal{H}_0+\mathcal{H}_1)|\Psi\rangle=E|\Psi\rangle.\label{eqn:fullH}
@@ -52,5 +52,6 @@ $$
 \end{align}
 $$
 This is the __Brillouin-Wigner expansion__.
+
 
 [^1]: This can be understood from the spectrum decomposition of an operator.
