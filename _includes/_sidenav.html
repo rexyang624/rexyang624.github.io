@@ -1,5 +1,7 @@
 <style>
     .sidenav {
+        left: 0px;
+        top: 0px;
         width: 200px;
         height: 100%;
         background: #ccc;
@@ -7,6 +9,10 @@
         overflow-x: hidden;
         margin: 0;
         padding: 0;
+        transition: 0.3s ease;
+    }
+    .sidenav li{
+        list-style-type: none;
     }
     .sidenav a {
         padding: 6px 8px 6px 16px;
@@ -23,7 +29,25 @@
     .inner { 
         padding-left: 220px;
         @media screen and (max-width: 768px) {
-            padding-left: 0; 
+            padding-left: 0px; 
+        }
+    }
+    .btn{
+        left: 0px;
+        top:  0px;
+        position: fixed;
+        border : none;
+        padding: 6px 8px 6px 16px;
+        background: transparent;
+        width: 80px; 
+        text-align: center;
+    }
+    .btn:active{
+        background: #708090;;
+    }
+    @media screen and (max-width: 768px) {
+        .sidenav{
+            left: -200px;
         }
     }
 </style>

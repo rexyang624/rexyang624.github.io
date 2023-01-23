@@ -13,12 +13,13 @@
 {% seo %}
     {% include _MathJax.html %}
   </head>
-
   <body>
+    {% include navigation.html %}
+    <script>
+      {% include _sidenav.js %}
+    </script>
     <div id="container">
-      {% include navigation.html %}
       <div class="inner">
-
         <header>
           <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
           <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>

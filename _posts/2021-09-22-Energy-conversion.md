@@ -1,6 +1,6 @@
 ---
 usemathjax: true
-layout: energy
+layout: page
 title:  "Energy unit conversion"
 permalink: /tools/unit-conversion/
 description: A quick energy unit conversion tool
