@@ -5,6 +5,7 @@ title:  Works
 permalink: /works/
 description: Collection of published research works
 ---
+<!-- [Google Scholar](https://scholar.google.com/citations?user=81n7-PoAAAAJ&hl=en&authuser=1){:target="_blank"} -->
 
 0. __Yang Yang__, Yiping Wang, Ioannis Rousochatzakis, Alejandro Ruiz, James G. Analytis, Kenneth S. Burch, and Natalia B. Perkins, [Phys. Rev. B 105, L241101 (2022)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.105.L241101){:target="_blank"}
 0. __Yang Yang__, Mengqun Li, Ioannis Rousochatzakis, and Natalia B. Perkins, [Phys. Rev. B 104, 144412 (2021)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.144412){:target="_blank"}
