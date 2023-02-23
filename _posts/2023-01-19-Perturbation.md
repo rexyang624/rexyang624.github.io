@@ -53,6 +53,40 @@ $$
 \end{align}
 $$
 This is the __Brillouin-Wigner expansion__.
+## Raleigh-Schrödinger expansion
+
+## Series expansion approach
+Suppose the perturbed Hamiltonian $\mathcal{H}_1=\lambda V$, where the parameter $\lambda$ determines the strength of the perturbation. Then we can expand the eigenvalues and the eigenvectors in terms of the series expansion of $\lambda$. If we look at the unperturbed ground state $|0 \rangle$ with eigenvalue $E_0$, we have corrected eigenvalue and eigenvector
+$$
+\begin{align}
+E&=\sum_{r=0}^\infty \lambda^r E_r,\label{eqn:E-expansion}\\
+|\Psi\rangle&=\sum_{r=0}^\infty \lambda^r |\Psi_r\rangle,\label{eqn:Psi-expansion}
+\end{align}
+$$
+where $|\Psi_r\rangle$ at different orders are orthogonal to $|0\rangle$. Next we can insert (\ref{eqn:E-expansion}) and (\ref{eqn:Psi-expansion}) into the Schödinger equation $(\mathcal{H}_0+\lambda V)|\Psi\rangle=E|\Psi\rangle$, and by collecting terms at the same order of $\lambda^n$, we have
+$$
+\begin{align}
+    (\mathcal{H}_0-E_0)|\Psi_n\rangle+V|\Psi_{n-1}\rangle=\sum_{r=0}^{n-1}E_{n-r}|\Psi_r\rangle.\label{eqn:lambda-collected}
+\end{align}
+$$
+Applying $\langle 0|$ to both sides of the equation (\ref{eqn:lambda-collected}), we get
+$$
+\begin{align}
+    E_n=\sum_{k\neq 0}\langle 0 |V|k\rangle\langle k|\Psi_{n-1}\rangle=\sum_{k\neq 0}V_{0,k}c_{k,n-1},
+\end{align}
+$$
+where we denote $V\_{i,j}=\langle i | V | j \rangle$ and $c\_{i,j}=\langle i|\Psi_j\rangle$. The coefficients $c\_{i,j}$ are found by applying various other eigenstates $\langle k\neq0|$ of $\mathcal{H}_0$ to (\ref{eqn:lambda-collected}) again, and we obtain
+$$
+\begin{align}
+    c_{k,n}=\frac{1}{E^{(k)}-E_0}\left(-\sum_{j}V_{kj}c_{j,n-1}+\sum_{s=0}^{n-1}E_{n-s}c_{k,s}\right),\label{eqn:overlap}
+\end{align}
+$$
+with $E^{(k)}$ denoting the eigenvalue of $|k\rangle$.
+Notice $c\_{i,j}$ at the right hand side of the equation (\ref{eqn:overlap}) only appears up to the order $j=n-1$. Therefore, we can compute $c\_{i,j}$ recursively from the lowest order. 
+
+### References
+0. David J. Thouless, *The Quantum Mechanics of Many-Body Systems*, (Dover Publications; Second Edition, 2014).
+0. Jaan Oitmaa, Chris Hamer, and Weihong Zheng, *Series Expansion Methods for Strongly Interacting Lattice Models*, (Cambridge University Press, 2010).
 
 
-[^1]: This can be understood from the spectrum decomposition of an operator.
+[^1]: This can be seen from the spectrum decomposition of an operator.
